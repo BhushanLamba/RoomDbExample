@@ -24,6 +24,7 @@
         android:inputType="number" />
 
     <Button
+        android:id="@+id/btn_delete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Delete" />
@@ -37,6 +38,12 @@
     <Button
         android:id="@+id/btn_get_data"
         android:text="Get Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_delete_all"
+        android:text="Delete All"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
