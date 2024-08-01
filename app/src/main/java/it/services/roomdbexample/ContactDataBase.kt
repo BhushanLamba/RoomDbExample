@@ -35,7 +35,6 @@ abstract class ContactDataBase : RoomDatabase() {
             }
         }
 
-        //Text String
 
 
         @Volatile
