@@ -35,8 +35,6 @@ abstract class ContactDataBase : RoomDatabase() {
             }
         }
 
-
-
         @Volatile
         private var INSTANCE: ContactDataBase? = null
 
